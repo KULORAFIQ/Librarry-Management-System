@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    text-align: center;
+ 
+}
+.jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image: url(images/perpus.jpg);
+    height: auto;
+    margin-top: 0;
+  }
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* untuk mengatur tinggi elemen menjadi seluruh viewport */
+  } 
+  img {
+      float: left;
+      margin-right: 10px;
+  }
+ 
+  .card-border-dark {
+    margin-right: 10px;
+  }
